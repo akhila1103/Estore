@@ -1,0 +1,34 @@
+.text-overlay{
+    position: absolute;
+    top:50%;
+    right: 15px;
+    transform: translateY(-50%);
+    /* transform: translateX(25%); */
+    /* bottom: 50%; */
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 992px){
+    .text-overlay{
+        right: 80px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .row{
+        margin: 15px;
+    }
+    img{
+        margin-bottom: 10px;
+    }
+    .text-overlay{
+        right: 15px;
+    }
+    .text-overlay p{
+        margin-left: 16px;
+    }
+}

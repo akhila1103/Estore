@@ -1,0 +1,96 @@
+.carousel-item{
+    float:none; 
+    transition: 0s !important;
+}
+.carouselText1{
+    position: absolute;
+    /* top: 50%; */
+    right: 0px;
+    bottom: 50%;
+    /* bottom: 10px; */
+    transform: translate(25%,50%);
+    /* font-weight: ; */
+}
+.carouselText2{
+    position: absolute;
+    /* top: 50%; */
+    left: 0px;
+    bottom: 50%;
+    /* bottom: 10px; */
+    transform: translate(25%,50%);
+}
+.display-h1{
+    font-size: calc(1.625rem + 4vw);
+}
+.fs-p1{
+    font-size: 2rem;
+}
+.fs-p2{
+    font-size: 1.25rem;
+}
+@media (max-width: 750px){
+    .carouselText1{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 40%;
+        transform: translate(0%,0%);
+    }
+    .carouselText2{
+        position: absolute;
+        top: 0px;
+        left: 10px;
+        bottom: 40%;
+        transform: translate(0%,0%);
+    }
+    /* .display-h1{
+        font-size: calc(1.5rem+3vw);
+    }
+    .fs-p2{
+        font-size: 1rem;
+    } */
+}
+@media (max-width: 600px){
+    .carouselText1{
+        /* position: absolute;
+        top: 0;
+        right: 0px; */
+        bottom: 0;
+        transform: translate(10%,20%);
+    }
+    .carouselText2{
+        /* position: absolute;
+        top: 0;
+        left: 0px; */
+        bottom: 0;
+        transform: translate(10%,20%);
+    }
+    .display-h1{
+        font-size: calc(1rem + 2vw);
+    }
+    .fs-p1{
+        font-size: 1rem;
+    }
+    .fs-p2{
+        font-size: 0.625rem;
+    }
+}
+@media (max-width: 400px){
+    .carouselText1{
+        /* position: absolute;
+        top: 0;
+        right: 0px; 
+        bottom: 0;*/
+        transform: translate(0%,0%);
+    }
+    .carouselText2{
+        /* position: absolute;
+        top: 0;
+        left: 0px;
+        bottom: 0; */
+        transform: translate(0%,0%);
+    }
+    .display-h1{
+        font-size: calc(0.25rem+1vw);
+    }
+}

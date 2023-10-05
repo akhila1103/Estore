@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "imageUrl": "src/assets/product1.png",
+        "productName": "Mini shorts",
+        "price": 369,
+        "actualPrice": 1199,
+        "discount": 50,
+        "isNew":false
+    },
+    {
+        "id": 2,
+        "imageUrl": "src/assets/product2.png",
+        "productName": "Green Hoodie",
+        "price": 650,
+        "actualPrice": 3500,
+        "discount": 80,
+        "isNew": true
+    },
+    {
+        "id": 3,
+        "imageUrl": "src/assets/product3.png",
+        "productName": "Yellow Long Sleeve top",
+        "price": 450,
+        "actualPrice": 1500,
+        "discount": 45,
+        "isNew": true
+    },
+    {
+        "id": 4,
+        "imageUrl": "src/assets/product4.png",
+        "productName": "Grey Sweatshirt",
+        "price": 660,
+        "actualPrice": 2499,
+        "discount": 77,
+        "isNew": true
+    },
+    {
+        "id": 5,
+        "imageUrl": "src/assets/product5.png",
+        "productName": "Black Jeans",
+        "price": 784,
+        "actualPrice" : 2899,
+        "discount": 70,
+        "isNew": true
+    },
+    {
+        "id": 6,
+        "imageUrl": "src/assets/product6.png",
+        "productName": "Denim Shirt",
+        "price": 992,
+        "actualPrice": 3500,
+        "discount": 60,
+        "isNew": false
+    }
+]

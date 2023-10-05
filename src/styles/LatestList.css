@@ -1,0 +1,18 @@
+.col-12 button{
+    outline: none;
+    border:none;
+    background-color: transparent;
+    font-weight: 400;
+}
+.inactive{
+    color: #969292;
+}
+.activeBtn{
+    color: #FF030C;
+    /* color: #fa3667; */
+}
+@media (max-width: 576px){
+    .col-12 p{
+        text-align: center;
+    }
+}

@@ -1,0 +1,19 @@
+a{
+    text-decoration: none;
+    color: rgba(180, 175, 175, 0.849);
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-weight: bold;
+}
+a:hover{
+    color: grey;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* text-decoration: underline;
+    font-weight: 500; */
+}
+.current-page{
+    color: rgb(0, 0, 0);
+    /* color: "#ff030c"; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-weight: 700;
+    margin-bottom: 0;
+}

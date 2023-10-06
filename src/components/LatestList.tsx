@@ -29,7 +29,7 @@ const LatestList = () => {
             Latest Products
           </p>
         </div>
-        <div className="col-xl-8 col-lg-7 col-sm-6 col-12 d-flex justify-content-sm-end justify-content-center align-items-center">
+        <div className="col-xl-8 col-lg-7 col-sm-6 col-12 d-flex justify-content-sm-end justify-content-center align-items-center latest-nav">
           <button
             className={isActive === 0 ? "activeBtn" : "inactive"}
             onClick={() => {

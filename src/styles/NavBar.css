@@ -30,6 +30,7 @@
 }
 .navLinks a:hover{
     color: #FF030C;
+    text-decoration: none;
 }
 .activeLink{
     border-bottom: 3px solid #FF030C;

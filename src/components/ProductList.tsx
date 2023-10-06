@@ -18,15 +18,15 @@ interface CheckboxState {
 const len = productlist.length;
 
 const filtersCheckbox = {
-  Dresses: false,
+  "Dresses": false,
   "Ethnic Wear": false,
-  Formals: false,
-  Jeans: false,
-  Joggers: false,
-  Shirts: false,
+  "Formals": false,
+  "Jeans": false,
+  "Joggers": false,
+  "Shirts": false,
   "T-Shirts": false,
-  Tops: false,
-  Trousers: false,
+  "Tops": false,
+  "Trousers": false,
 };
 
 const ProductList = () => {
